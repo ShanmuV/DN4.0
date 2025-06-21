@@ -35,7 +35,7 @@ BEGIN
     FOR record IN (SELECT * FROM CUSTOMERS) LOOP
         IF record.balance > 10000 THEN
             UPDATE CUSTOMERS
-            SET isVip = true
+            SET isVip = 'true'
             WHERE customer_id = record.customer_id;
         END IF;
     END LOOP;
