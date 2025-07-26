@@ -1,0 +1,17 @@
+table {
+  margin: 10px;
+  border: 10px;
+  border-color: rgb(183, 222, 255);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.field {
+  font-weight: bold;
+}
